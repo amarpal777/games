@@ -223,16 +223,20 @@ RIGHT SIDEBAR TOGGLE SECTION
 
 	<div class="padding-all">
 		<div class="header">
-			<h1><img src="./images/5.png" alt=" "> Login </h1>
+			<h1><img src="./images/5.png" alt=" "> Register </h1>
 		</div>
 
 		<div class="design-w3l">
 			<div class="mail-form-agile">
-				<form action="server.php" method="post">
-					<input type="text" name="name" placeholder="User Name " required=""/>
-					<input type="password"  name="pass" class="padding" placeholder="Password" required=""/>
-					<a href="index1.html"><input type="submit" value="submit"></a>
-				</form><br><a href="register.html"><input type="submit" value="Sign up"></a>
+				<form action="connect.php" method="post">
+					<input type="text" name="name" id="name" placeholder="User Name " required=""/><br><br>
+          <input type="text" name="email" id="email" class="padding" placeholder="Email" />
+					<input type="password" name="pass" id="pass" class="padding" placeholder="Password" required=""/>
+         
+          
+					<input type="submit" value="submit">
+            
+				</form><br><a href="login.html"><input type="submit" value="Login"></a>
 			</div>
 		  <div class="clear"> </div>
 		</div>
