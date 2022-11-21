@@ -15,11 +15,8 @@ die('There was an error running the query [' . $conn->error . ']');
 }
 else
 {
-echo "Thank you! We will contact you soon";
+    header('Location: contact2.html');
 }
 }
-else
-{
-echo "Please fill Name and Email";
-}
+
 ?>
